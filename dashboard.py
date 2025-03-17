@@ -10,8 +10,8 @@ sns.set(style='dark')
 
 st.header('Selamat Datang di Dashboard E-Commerce Public Dataset ✨')
 
-order_payments = pd.read_csv("data/order_payments_dataset.csv")  
-customer_dataset = pd.read_csv("data/customers_dataset.csv")  
+order_payments = pd.read_csv("order_payments_dataset.csv")  
+customer_dataset = pd.read_csv("customers_dataset.csv")  
 
 st.subheader("Distribusi Tipe Pembayaran")
 
